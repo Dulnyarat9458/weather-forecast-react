@@ -1,5 +1,59 @@
+.App-Sunny-Day {
+  background-image: url("images/Sunny.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center bottom;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  color: white;
+}
+
+.App-Sunny-Night {
+  background-image: url("images/Desert.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center bottom;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  color: white;
+}
+.App-Cold-Day {
+  background-image: url("images/Snowy.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center bottom;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  color: white;
+}
+.App-Cold-Night {
+  background-image: url("images/Snownight.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center bottom;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  color: white;
+}
 .App {
-  text-align: center;
+  background-image: url("images/Road.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center bottom;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  color: white;
+
 }
 
 .App-logo {
@@ -14,7 +68,7 @@
 }
 
 .App-header {
-  background-color: #282c34;
+
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -32,7 +86,58 @@
   from {
     transform: rotate(0deg);
   }
+
   to {
     transform: rotate(360deg);
   }
+}
+
+.mainbox {
+  margin: 30px;
+  padding: 30px;
+  position: relative;
+  top: -25px;
+  height: 480px;
+  width: 480px;
+  border-radius: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  background-color: rgba(50, 50, 50, 0.5);
+
+}
+
+.search-container {
+  width: 100%;
+  margin: 0 0 75px;
+  /* top, left-right, bottom */
+}
+
+.search-bar {
+  color: black;
+  font-size: 15px;
+  display: block;
+  width: 50%;
+  padding: 15px;
+  border: none;
+  outline: none;
+  appearance: none;
+  border-radius: 5px;
+  box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.3);
+  transition: 0.4s ease;
+}
+
+.search-container .search-bar:focus {
+  background-color: white;
+}
+
+.location-container{
+  color: white;
+  font-size: 36px;
+}
+.weather-container{
+  color: white;
+  font-size: 24px;
 }

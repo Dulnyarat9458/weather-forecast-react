@@ -1,0 +1,65 @@
+
+h1 {
+    font-size: 21px;
+    padding: 10px;
+    margin: 30px;
+}
+
+p {
+    border: 1px solid firebrick;
+    padding: 10px;
+    margin: 30px;
+}
+
+h3 {
+    font-size: 22px;
+    border: 3px solid greenyellow;
+    padding: 10px;
+    margin: 30px;
+}
+
+#jimmy {
+    border: 3px solid blue;
+    padding: 10px;
+    margin: 30px;
+}
+
+.ole {
+    color: blueviolet;
+    background: fixed;
+    background-color: rgb(162, 0, 255);
+    border: 3px solid greenyellow;
+    padding: 10px;
+    margin: 30px;
+}
+
+.xnxx {
+    color: blueviolet;
+    font-size: 120px;
+    border: 3px solid pink;
+    padding: 10px;
+    margin: 30px;
+}
+
+table tr:nth-child(even) {
+    background-color: #aaaaaa;
+}
+
+table tr:nth-child(odd) {
+    background-color: #ffffff;
+}
+
+table th {
+    color: white;
+    background-color: black;
+}
+
+a:link, a:visited {
+    color: (internal value);
+    text-decoration: underline;
+    cursor: all-scroll;
+}
+
+a:link:active, a:visited:active {
+    color: (internal value);
+}
