@@ -21,6 +21,7 @@
   justify-content: center;
   color: white;
 }
+
 .App-Cold-Day {
   background-image: url("images/Snowy.jpg");
   background-repeat: no-repeat;
@@ -32,6 +33,7 @@
   justify-content: center;
   color: white;
 }
+
 .App-Cold-Night {
   background-image: url("images/Snownight.jpg");
   background-repeat: no-repeat;
@@ -43,6 +45,7 @@
   justify-content: center;
   color: white;
 }
+
 .App {
   background-image: url("images/Road.jpg");
   background-repeat: no-repeat;
@@ -133,11 +136,16 @@
   background-color: white;
 }
 
-.location-container{
+.location-container {
   color: white;
   font-size: 36px;
 }
-.weather-container{
-  color: white;
-  font-size: 24px;
+
+.weather-container {
+  color: whitesmoke;
+  font-size: 36px;
+}
+
+.nav {
+  background-color: rgba(0,0,0,0.0)
 }
