@@ -2,11 +2,11 @@ import logo from './logo.svg';
 import './App.css';
 import keys from './Key.js';
 import react, { Component } from "react";
-import CenterContainer from './components/CenterContainer';
+
 import NavbarApp from './components/NavbarApp';
 import { Button, Card, Row, Col, Container, Nav, Navbar, Jumbotron } from 'react-bootstrap';
 import 'bootstrap/dist/css/bootstrap.css';
-import { getSuggestedQuery } from '@testing-library/react';
+
 import React, { useState } from "react";
 
 
